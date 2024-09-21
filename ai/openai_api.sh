@@ -25,10 +25,6 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 usage_description="
 Queries the OpenAI API
 
-Automatically handles authentication via environment variable \$OPENAI_API_KEY
-If a member of multiple organizations then you must also set \$OPENAI_ORGANIZATION_ID
-
-Can specify \$CURL_OPTS for options to pass to curl or provide them as arguments
 
 
 Set up your API key here:
